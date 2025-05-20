@@ -41,7 +41,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./build/html # The directory the action should deploy from
+          publish_dir: ./docs/_build/html # The directory the action should deploy from
           # publish_branch: gh-pages # Default is gh-pages
           # user_name: 'github-actions[bot]' # Default is 'github-actions[bot]'
           # user_email: 'github-actions[bot]@users.noreply.github.com' # Default
